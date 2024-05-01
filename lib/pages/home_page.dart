@@ -5,11 +5,15 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:my_portfolio/constants/colors.dart';
 import 'package:my_portfolio/constants/size.dart';
 import 'package:my_portfolio/constants/skill_items.dart';
+import 'package:my_portfolio/styles/style.dart';
+import 'package:my_portfolio/utils/project_utils.dart';
 import 'package:my_portfolio/widgets/drawer_mobile.dart';
 import 'package:my_portfolio/widgets/header_desktop.dart';
 import 'package:my_portfolio/widgets/header_mobile.dart';
 import 'package:my_portfolio/widgets/main_desktop.dart';
 import 'package:my_portfolio/widgets/main_mobile.dart';
+import 'package:my_portfolio/widgets/project_card.dart';
+import 'package:my_portfolio/widgets/projects_section.dart';
 import 'package:my_portfolio/widgets/skills_desktop.dart';
 import 'package:my_portfolio/widgets/skills_mobile.dart';
 
@@ -56,6 +60,10 @@ class _HomePageState extends State<HomePage> {
             else
               const MainMobile(),
 
+            const SizedBox(
+              height: 30,
+            ),
+
             // skills
             Container(
               width: screenWidth,
@@ -85,11 +93,12 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
 
-            // projects
-            Container(
-              height: 500,
-              width: double.maxFinite,
+            const SizedBox(
+              height: 30,
             ),
+
+            // projects
+            const ProjectsSection(),
 
             // contacts
             Container(

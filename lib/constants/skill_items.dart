@@ -4,7 +4,7 @@ const List<Map> platformItems = [
     "title": "Android Dev",
   },
   {
-    "img": "assets/web_icon.jpg",
+    "img": "assets/web_icon.png",
     "title": "Web Dev",
   },
   {
@@ -12,7 +12,7 @@ const List<Map> platformItems = [
     "title": "IOS Dev",
   },
   {
-    "img": "assets/desktop_icon.jpg",
+    "img": "assets/desktop_icon.png",
     "title": "Desktop Dev",
   },
 ];

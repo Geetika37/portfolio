@@ -16,7 +16,7 @@ class HeaderDesktop extends StatelessWidget {
         vertical: 7,
         horizontal: 20,
       ),
-      decoration: kHeaderDecoration,
+      decoration: kHeaderDecoration(100),
       child: Row(
         children: [
           SiteLogo(
