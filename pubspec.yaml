@@ -64,6 +64,7 @@ flutter:
     - assets/
     - assets/projects/
     - assets/socialmedia/
+    - assets/projects/royalfuji.jpeg
     
 
   # An image asset can refer to one or more resolution-specific "variants", see

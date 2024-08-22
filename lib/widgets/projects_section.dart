@@ -16,7 +16,7 @@ class ProjectsSection extends StatelessWidget {
         children: [
           // project title
           Text(
-            "Personal Endeavors:Projects",
+            "Work Endeavors:Projects",
             style: GoogleFonts.josefinSans(
               fontSize: 26,
               fontWeight: FontWeight.bold,

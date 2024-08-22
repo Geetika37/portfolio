@@ -46,7 +46,7 @@ class ProjectCardWidget extends StatelessWidget {
             child: Text(
               project.subtitle,
               style: const TextStyle(
-                fontSize: 12,
+                fontSize: 9,
                 color: CustomColor.whiteSecondary,
               ),
             ),

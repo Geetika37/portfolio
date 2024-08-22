@@ -67,6 +67,7 @@ class SkillDesktop extends StatelessWidget {
                     ),
                     label: Text(skillItems[i]["title"]),
                     avatar: Image.asset(skillItems[i]["img"]),
+                    
                   )
               ],
             ),

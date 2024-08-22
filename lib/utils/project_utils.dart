@@ -21,10 +21,13 @@ class ProjectUtils {
 List<ProjectUtils> myProjects = [
   // 1 st project
   ProjectUtils(
-    image: 'assets/projects/project1.jpg',
-    title: 'Example project original yet to come',
-    subtitle: 'Please wait for the arrival of original one!',
-    androidLink: 'https://www.flaticon.com/search?word=ios',
+    image: 'assets/projects/royalfuji.jpeg',
+    title: 'Royal Fuji Star',
+    subtitle:
+        'Royal Fuji Star is a comprehensive mobile application developed for ROYAL FUJI STARELEVATOR & ESCALATORS, a leading elevator manufacturer based in Dubai, United Arab Emirates. ',
+    androidLink:
+        'https://play.google.com/store/apps/details?id=com.erebsglobal.royalfujistar',
+    iosLink: 'https://apps.apple.com/in/app/royal-fuji-star/id6615078714',
   ),
 
   //2 nd project
